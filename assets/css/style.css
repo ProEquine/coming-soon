@@ -24,7 +24,17 @@ h3 {
     color: #606060;
     font-family: "myFont", sans-serif;
 }
-
+.gradient-text {
+    color: red;
+  }
+  /* gradient text for modern browsers */
+  @supports (background-clip: text) {
+    .gradient-text {
+      background-image: linear-gradient(60deg, #E21143, #FFB03A);
+      background-clip: text;
+      color: transparent;
+    }
+  }
 .svg_text {
     width: 40%;
     margin: -5rem auto;
@@ -35,8 +45,8 @@ svg text {
     font-family: "myFont", sans-serif;
     font-size: 12rem;
     font-weight: 400;
-    stroke: #606060;
-    stroke-width: 4;
+    stroke: #84837e;
+    stroke-width: 1rem;
     animation: text_animation 5s infinite alternate;
     z-index: 5;
 }
