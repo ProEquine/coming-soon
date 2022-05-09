@@ -25,7 +25,7 @@ body::before {
 img{
     position: relative;
     /* top: 70px; */
-    width: 30%;
+    width: 40%;
     bottom: 1rem;
 }
 h4 {
@@ -47,7 +47,7 @@ h4 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    animation: waviy 1s infinite;
+    animation: waviy 3s infinite;
     animation-delay: calc(.1s * var(--i));
     
   }
