@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: myFont;
-    src: url(/assets/Fonts/SANSATION-LIGHT.TTF);
+    src: url(../Fonts/SANSATION-LIGHT.TTF);
   }
 
 body {
