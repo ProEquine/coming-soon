@@ -34,9 +34,9 @@ h3 {
 svg text {
     font-family: "myFont", sans-serif;
     font-size: 12rem;
-    font-weight: bold;
+    font-weight: 400;
     stroke: #606060;
-    stroke-width: 1rem;
+    stroke-width: 4;
     animation: text_animation 5s infinite alternate;
     z-index: 5;
 }
