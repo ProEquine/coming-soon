@@ -43,6 +43,7 @@ h5 {
   z-index: 1025;
 } 
 h5 a{
+  text-decoration: none;
   color: #606060;
 }
   .waviy {
